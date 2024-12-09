@@ -60,7 +60,7 @@ spec:
 
       - name: transportationorderserver
 
-        image: ghcr.io/siidebox/tos
+        image: ghcr.io/yourGitHubUsername/tos
 
         ports:
 
