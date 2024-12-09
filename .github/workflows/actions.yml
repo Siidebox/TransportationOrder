@@ -66,7 +66,7 @@ jobs:
 
             registry: ghcr.io
 
-            username: "Siidebox"
+            username: "siidebox"
             #donde se guarda el screto de nombe PAT donde se guarda el token 
             #para el servidor de github de para guardar las imagenes y conseguir integracion conitnua
             password: ${{ secrets.PAT }}
@@ -83,4 +83,4 @@ jobs:
 
             push: true
 
-            tags: ghcr.io/Siidebox/tos:latest
+            tags: ghcr.io/siidebox/tos:latest
